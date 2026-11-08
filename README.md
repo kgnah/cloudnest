@@ -98,4 +98,4 @@ More detail in [docs/architecture.md](docs/architecture.md#10-known-limitations-
 
 ## Author
 
-Vo Huynh Minh Khang, Computer Science and Engineering student at the Vietnamese-German University. [GitHub](https://github.com/kgnah)
+Vo Huynh Minh Khang · [GitHub](https://github.com/kgnah)
