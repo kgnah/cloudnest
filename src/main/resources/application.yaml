@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: cloudnest
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cloudnest
+    username: postgres
+    password:
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      open-in-view: false
+    show-sql: false
+
+jwt:
+  secret:
+
+
+cloudnest:
+  version: 1.0.0
+  status: RUNNING
+  message: CloudNest is running
+  base-url: http://localhost
+  webhook:
+    secret: ${GITHUB_WEBHOOK_SECRET}
+
+logging:
+  level:
+    org.springframework.security: DEBUG
